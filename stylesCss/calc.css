@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+}
+
+header{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+header h1{
+    margin-left: 5%;
+}
+
+header span{
+    color: #033C2E;
+}
+
+header nav {
+    margin-right: 5%;
+    width: 18%;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+    margin: 3%;
+}
+
+header nav a:hover{
+    color: #033C2E;
+}
+
+.mainCalc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.mainCalc h1{
+    margin-bottom: 0.5%;
+}
+.mainCalc h1 span{
+    color: #033C2E;
+}
+
+.mainCalc input{
+    border: none;
+    width: 14%;
+    padding: 8px;
+    margin: 0.5%;
+    border-bottom: 1px solid #033C2E;
+}
+
+.mainCalc button{
+    margin-top: 1%;
+    background-color: #033C2E;
+    border: none;
+    color: white;
+    width: 15%;
+    height: 5%;
+    border-radius: 5px;
+}
+.mainCalc button:hover{
+    background-color: #043025;
+    cursor: pointer;
+}
+.mainCalc #saida{
+    margin-top: 1%;
+}
+

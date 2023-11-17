@@ -1,0 +1,10 @@
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+    const peso = parseFloat(document.getElementById("peso").value); 
+    const altura = parseFloat(document.getElementById("altura").value);
+    document.getElementById("saida").innerHTML = '';
+
+    const imc = peso/(altura*altura);
+    document.getElementById("saida").innerHTML = `Seu IMC é de ${imc.toFixed(2)}`;
+});
